@@ -8,13 +8,15 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:background="@color/backgroundColor"
-    android:gravity="center">
+    android:gravity="center"
+    >
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
         android:clipToPadding="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
         <androidx.cardview.widget.CardView
             android:foreground="?android:selectableItemBackground"
             android:clickable="true"
@@ -40,12 +42,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Banking">
                 </TextView>
-                <view
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGrayLine"
-                    android:layout_margin="10dp">
-                </view>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -57,7 +54,6 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
             android:foreground="?android:selectableItemBackground"
             android:clickable="true"
@@ -83,12 +79,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Ideas">
                 </TextView>
-                <view
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGrayLine"
-                    android:layout_margin="10dp">
-                </view>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -100,10 +91,7 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
-
     </LinearLayout>
-
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
@@ -135,12 +123,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Add">
                 </TextView>
-                <view
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGrayLine"
-                    android:layout_margin="10dp">
-                </view>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -178,12 +161,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Links">
                 </TextView>
-                <view
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGrayLine"
-                    android:layout_margin="10dp">
-                </view>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -195,7 +173,6 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
 
     </LinearLayout>
 
@@ -230,12 +207,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Add">
                 </TextView>
-                <view
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightGrayLine"
-                    android:layout_margin="10dp">
-                </view>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
